@@ -33,6 +33,6 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape[color=" + this.color + ", filled=" + this.filled + "]";
+        return "Shape[color=" + getColor() + ", filled=" + isFilled() + "]";
     }
 }

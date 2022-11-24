@@ -25,16 +25,16 @@ public class Circle extends Shape {
 
     @Override
     public double getArea() {
-        return Math.PI * Math.pow(this.radius,2);
+        return Math.PI * Math.pow(getRadius(),2);
     }
 
     @Override
     public double getPerimeter() {
-        return Math.PI * (this.radius * 2);
+        return Math.PI * (getRadius() * 2);
     }
 
     @Override
     public String toString() {
-        return "Circle[" + super.toString() + ", radius=" + this.radius + "]";
+        return "Circle[" + super.toString() + ", radius=" + getRadius() + "]";
     }
 }
