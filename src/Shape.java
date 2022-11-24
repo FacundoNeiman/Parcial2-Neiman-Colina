@@ -12,7 +12,7 @@ public abstract class Shape {
     }
 
     public String getColor(){
-        return this.color;
+        return this.color != null ? this.color : "N/A";
     }
 
     public void setColor(String color){
